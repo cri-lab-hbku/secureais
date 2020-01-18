@@ -1,0 +1,174 @@
+(*
+Secure AIS - Securing Pairwise Vessels Communications (Formal Security Proof with Proverif)
+Authors: Pietro Tedeschi, Ahmed Aziz, Savio Sciancalepore and Roberto Di Pietro
+Division of Information and Computing Technology (ICT)
+College of Science and Engineering (CSE)
+Hamad Bin Khalifa University (HBKU), Doha, Qatar
+{ptedeschi, aaziz}@mail.hbku.edu.qa, {ssciancalepore, rdipietro}@hbku.edu.qa
+*)
+
+(*Dolev-Yao model Open Channel*)
+free c:channel. (*Channel between Vessel A and Vessel B*)
+
+free lk:bitstring [private].
+
+type vessel.
+type G. (*Elliptic Curve Generator Point*)
+
+(*Public and Private Key*)
+type pkey.
+type skey.
+
+(*ECQV Certificates*)
+type ecqv.
+type nonce.
+
+type ssk. (*Shared Secret Key*)
+type plk. (*Pre Link Key*)
+
+(*Generic Hashing Function*)
+fun h(ecqv, vessel): bitstring.
+
+(*Public Key Generation/Extraction*)
+fun get_pub_key(skey, G): pkey.
+fun extract_pub_key(pkey, ecqv, bitstring): pkey.
+
+(*Shared Secret Generation*)
+fun get_ssk(skey, pkey): ssk.
+
+(*Key Derivation Function*)
+fun kdf(ssk): plk.
+
+(*Key Derivation Function 2*)
+fun gen_link_key(plk,nonce,nonce): bitstring.
+
+(*Symmetric Encryption*)
+fun enc(plk, bitstring): bitstring.
+reduc forall Pk:plk, m:bitstring; dec(Pk, enc(Pk,m)) = m.
+
+(*Implicit Signature*)
+type imp_sign.
+
+fun get_imp_sign(skey, ecqv, vessel): imp_sign.
+fun get_skey(imp_sign, bitstring): skey.
+
+fun pk(skey): pkey.
+
+const g: G [data].
+
+const SL:bitstring.    (*Security Level*)
+
+equation forall cert:ecqv, v:vessel, sk:skey;
+get_pub_key(get_skey(get_imp_sign(sk,cert,v),h(cert,v)),g) = extract_pub_key(pk(sk),cert, h(cert,v)).
+
+(*MMSI of Ship A and Ship B*)
+free A,B:vessel.
+
+(*Events*)
+event begin_SecureAIS_A(pkey, vessel).
+event begin_SecureAIS_B(pkey, vessel).
+event end_SecureAIS_A(pkey, vessel).
+event end_SecureAIS_B(pkey, vessel).
+
+
+(*Vessel A authenticates Vessel B*)
+query x:pkey, y:vessel; inj-event(end_SecureAIS_A(x,y))==>inj-event(begin_SecureAIS_B(x,y)).
+
+(*Vessel B authenticates Vessel A*)
+query x:pkey, y:vessel; inj-event(end_SecureAIS_B(x,y))==>inj-event(begin_SecureAIS_A(x,y)).
+
+query attacker(lk).
+
+let processA(sA:imp_sign, pA:ecqv, pkC:pkey) =
+
+(*Ship A Public and Private Key Generation*)
+
+let skA = get_skey(sA,h(pA,A)) in
+let pkA = get_pub_key(skA,g) in
+
+(*KMP*)
+new nA: nonce;
+
+(*1. Ship A sends the first message which contains ECQV certificate, nonce and its ID*)
+out(c,(pA,nA,A,SL));
+
+in(c,(pY:ecqv,nY:nonce,Y:vessel,sl:bitstring));
+if Y<>A then (
+
+(*3. Ship A extracts the public key of the remote ship pkY and computes the shared secret S as described in the ECDH protocol*)
+    let pkY = extract_pub_key(pkC, pY, h(pY,Y)) in
+    let S = get_ssk(skA,pkY) in
+
+(*Ship A believes it has started the protocol with Ship B with pkY as B's public key*)
+    event begin_SecureAIS_B(pkY,Y);
+
+(*5. Ship A and Ship B use a KDF to generate the Pre Link Key, PK, adopted for the authentication*)
+    let PK = kdf(S) in
+
+(*6. Ship A has to demonostrate to be in possession of the Pre Link Key - It computes the Authentication Tag*)
+
+    let tagA = enc(PK,(pkA,pY,nA,nY)) in
+    out(c, tagA);
+(*8. Ships A and B finalize the Key Agreement Protocol by verifying the correctness of the received authentication tags*)
+
+    in(c, tagB:bitstring);
+    let(=pkY,=pkA,=nA,=nY) = dec(PK, tagB) in
+
+    (*Link Key*)
+    let lk = gen_link_key(PK,nA,nY) in
+
+(*Ship A believes it has completed the protocol with Ship B*)
+    event end_SecureAIS_A(pkY,Y)
+).
+
+let processB(sB:imp_sign, pB:ecqv, pkC:pkey) =
+
+(*Ship B Public and Private Key Generation*)
+
+let skB = get_skey(sB,h(pB,B)) in
+let pkB = get_pub_key(skB,g) in
+
+(*KMP*)
+in(c,(pX:ecqv,nX:nonce,X:vessel));
+
+if X<>B then (
+
+(*2. Ship B extracts the public key of the remote ship pkX and computes the shared secret S as described in the ECDH protocol*)
+    let pkX = extract_pub_key(pkC, pX, h(pX,X)) in
+    let S = get_ssk(skB,pkX) in
+
+(*Ship B believes it has started the protocol with Ship A with pkX as A's public key*)
+    event begin_SecureAIS_A(pkX,X);
+
+    new nB: nonce;
+
+(*3. Ship A sends the first message which contains ECQV certificate, nonce and its ID*)
+    out(c,(pB,nB,B));
+
+(*5. Ship A and Ship B use a KDF to generate the Pre Link Key, PK, adopted for the authentication*)
+    let PK = kdf(S) in
+
+(*8. Ships A and B finalize the Key Agreement Protocol by verifying the correctness of the received authentication tags*)
+    in(c, tagA:bitstring);
+    let(=pkX,=pkB,=nX,=nB) = dec(PK, tagA) in
+
+(*6. Ship B has to demonostrate to be in possession of the Pre Link Key - It computes the Authentication Tag*)
+
+    let tagB = enc(PK,(pkB,pkX,nB,nX)) in
+    out(c, tagB);
+
+    let lk = gen_link_key(PK,nX,nB) in
+
+(*Ship B believes it has completed the protocol with Ship A*)
+    event end_SecureAIS_B(pkX,X)
+).
+
+(*Main Process*)
+
+process
+    new sA:imp_sign;
+    new sB:imp_sign;
+    new Pb:ecqv;
+    new Pa:ecqv;
+    new skC:skey; let pkC=pk(skC) in (*CA Public Key*)
+    (!processA(sA,Pa,pkC) | (!processB(sB,Pb,pkC)))
