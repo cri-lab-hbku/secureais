@@ -1,0 +1,38 @@
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 47
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 238943
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 416424
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 623797
+Preprocessing AIS cert packets to get complete certificate, 13
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 5590
+Compute H(Pa ,Ia )Pa, 1203
+C + H(Pa ,Ia ) Pa, 3
+Total time to Compute Pk, 6892
+Total time for first protocol exchange from Ship 1 to Ship 2, 1286437
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 33
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 200657
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 623867
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 415996
+Preprocessing AIS cert packets to get complete certificate, 12
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 5863
+Compute H(Pa ,Ia )Pa, 1231
+C + H(Pa ,Ia ) Pa, 7
+Total time to Compute Pk, 7200
+Total time for second protocol exchange from Ship 2 to Ship 1, 1247948
+Generation of DH key on Ship 1, 1304
+Generation of DH key on Ship 2, 1248
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 405939
+Complete time for preprocessing/sending/receiving auth tag , 406105
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 208056
+Complete time for preprocessing/sending/receiving auth tag , 208210
+Verify auth tag, 0
+Generation of link session key on Ship 1, 2
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 3151580

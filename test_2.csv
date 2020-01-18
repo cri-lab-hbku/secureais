@@ -1,0 +1,1022 @@
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 91
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 244434
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 416101
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 624110
+Preprocessing AIS cert packets to get complete certificate, 13
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 6808
+Compute H(Pa ,Ia )Pa, 1375
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 8293
+Total time for first protocol exchange from Ship 1 to Ship 2, 1294167
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 32
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 198923
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 623813
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 415988
+Preprocessing AIS cert packets to get complete certificate, 10
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 5669
+Compute H(Pa ,Ia )Pa, 1225
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 6977
+Total time for second protocol exchange from Ship 2 to Ship 1, 1245960
+Generation of DH key on Ship 1, 1240
+Generation of DH key on Ship 2, 1250
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 406267
+Complete time for preprocessing/sending/receiving auth tag , 406443
+Generation of Auth tag using HMAC function, 27
+Preprocessing of SecureAIS auth tag before transmitting, 12
+Sending/Receiving of auth tag packet#0, 207943
+Complete time for preprocessing/sending/receiving auth tag , 208141
+Verify auth tag, 0
+Generation of link session key on Ship 1, 15
+Generation of link session key on Ship 2, 14
+Total time taken by protocol for exchange, 3157552
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 44
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 238628
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 416076
+Preprocessing AIS cert packets to get complete certificate, 9
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 2356
+Compute H(Pa ,Ia )Pa, 1037
+C + H(Pa ,Ia ) Pa, 3
+Total time to Compute Pk, 3522
+Total time for first protocol exchange from Ship 1 to Ship 2, 658522
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 28
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 412258
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 623878
+Preprocessing AIS cert packets to get complete certificate, 10
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 2255
+Compute H(Pa ,Ia )Pa, 1017
+C + H(Pa ,Ia ) Pa, 4
+Total time to Compute Pk, 3373
+Total time for second protocol exchange from Ship 2 to Ship 1, 1039691
+Generation of DH key on Ship 1, 1033
+Generation of DH key on Ship 2, 1035
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 410233
+Complete time for preprocessing/sending/receiving auth tag , 410407
+Generation of Auth tag using HMAC function, 13
+Preprocessing of SecureAIS auth tag before transmitting, 15
+Sending/Receiving of auth tag packet#0, 415767
+Complete time for preprocessing/sending/receiving auth tag , 415948
+Verify auth tag, 0
+Generation of link session key on Ship 1, 2
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 2526975
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 39
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 239435
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 415997
+Preprocessing AIS cert packets to get complete certificate, 7
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 661
+Compute H(Pa ,Ia )Pa, 247
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 994
+Total time for first protocol exchange from Ship 1 to Ship 2, 656707
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 35
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 206619
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 624169
+Preprocessing AIS cert packets to get complete certificate, 6
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 629
+Compute H(Pa ,Ia )Pa, 210
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 940
+Total time for second protocol exchange from Ship 2 to Ship 1, 831930
+Generation of DH key on Ship 1, 233
+Generation of DH key on Ship 2, 241
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 0
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 33
+Sending/Receiving of auth tag packet#0, 206055
+Complete time for preprocessing/sending/receiving auth tag , 206268
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 12
+Sending/Receiving of auth tag packet#0, 415812
+Complete time for preprocessing/sending/receiving auth tag , 415968
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 0
+Total time taken by protocol for exchange, 2111676
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 42
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 85854
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 624178
+Preprocessing AIS cert packets to get complete certificate, 7
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 666
+Compute H(Pa ,Ia )Pa, 301
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 1066
+Total time for first protocol exchange from Ship 1 to Ship 2, 711399
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 24
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 206608
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 624215
+Preprocessing AIS cert packets to get complete certificate, 6
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 702
+Compute H(Pa ,Ia )Pa, 247
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 1033
+Total time for second protocol exchange from Ship 2 to Ship 1, 832017
+Generation of DH key on Ship 1, 306
+Generation of DH key on Ship 2, 232
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 16
+Preprocessing of SecureAIS auth tag before transmitting, 30
+Sending/Receiving of auth tag packet#0, 206074
+Complete time for preprocessing/sending/receiving auth tag , 206260
+Generation of Auth tag using HMAC function, 31
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 207753
+Complete time for preprocessing/sending/receiving auth tag , 207916
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 0
+Total time taken by protocol for exchange, 1958513
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 55
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 245476
+Preprocessing AIS cert packets to get complete certificate, 5
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 136
+Compute H(Pa ,Ia )Pa, 162
+C + H(Pa ,Ia ) Pa, 0
+Total time to Compute Pk, 335
+Total time for first protocol exchange from Ship 1 to Ship 2, 246099
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 28
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 415568
+Preprocessing AIS cert packets to get complete certificate, 4
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 139
+Compute H(Pa ,Ia )Pa, 157
+C + H(Pa ,Ia ) Pa, 0
+Total time to Compute Pk, 332
+Total time for second protocol exchange from Ship 2 to Ship 1, 416017
+Generation of DH key on Ship 1, 153
+Generation of DH key on Ship 2, 156
+Generation of preliminary session key on Ship 1, 0
+Generation of preliminary session key on Ship 2, 0
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 13
+Sending/Receiving of auth tag packet#0, 415183
+Complete time for preprocessing/sending/receiving auth tag , 415354
+Generation of Auth tag using HMAC function, 25
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 416150
+Complete time for preprocessing/sending/receiving auth tag , 416326
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 0
+Total time taken by protocol for exchange, 1494366
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 184
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 32919
+Preprocessing AIS cert packets to get complete certificate, 13
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 543
+Compute H(Pa ,Ia )Pa, 514
+C + H(Pa ,Ia ) Pa, 4
+Total time to Compute Pk, 1227
+Total time for first protocol exchange from Ship 1 to Ship 2, 35744
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 81
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 98295
+Preprocessing AIS cert packets to get complete certificate, 17
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 812
+Compute H(Pa ,Ia )Pa, 799
+C + H(Pa ,Ia ) Pa, 4
+Total time to Compute Pk, 1772
+Total time for second protocol exchange from Ship 2 to Ship 1, 100437
+Generation of DH key on Ship 1, 817
+Generation of DH key on Ship 2, 866
+Generation of preliminary session key on Ship 1, 5
+Generation of preliminary session key on Ship 2, 4
+Generation of Auth tag using HMAC function, 53
+Preprocessing of SecureAIS auth tag before transmitting, 63
+Sending/Receiving of auth tag packet#0, 69105
+Complete time for preprocessing/sending/receiving auth tag , 69661
+Generation of Auth tag using HMAC function, 31
+Preprocessing of SecureAIS auth tag before transmitting, 47
+Sending/Receiving of auth tag packet#0, 60133
+Complete time for preprocessing/sending/receiving auth tag , 60682
+Verify auth tag, 2
+Generation of link session key on Ship 1, 4
+Generation of link session key on Ship 2, 2
+Total time taken by protocol for exchange, 269182
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 200
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19839
+Preprocessing AIS cert packets to get complete certificate, 6
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 269
+Compute H(Pa ,Ia )Pa, 236
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 561
+Total time for first protocol exchange from Ship 1 to Ship 2, 21028
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 54
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 26681
+Preprocessing AIS cert packets to get complete certificate, 9
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 326
+Compute H(Pa ,Ia )Pa, 391
+C + H(Pa ,Ia ) Pa, 16
+Total time to Compute Pk, 830
+Total time for second protocol exchange from Ship 2 to Ship 1, 27739
+Generation of DH key on Ship 1, 260
+Generation of DH key on Ship 2, 266
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 20
+Preprocessing of SecureAIS auth tag before transmitting, 27
+Sending/Receiving of auth tag packet#0, 25295
+Complete time for preprocessing/sending/receiving auth tag , 25554
+Generation of Auth tag using HMAC function, 21
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 25694
+Complete time for preprocessing/sending/receiving auth tag , 25942
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 101233
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 287
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 20328
+Preprocessing AIS cert packets to get complete certificate, 8
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 202
+Compute H(Pa ,Ia )Pa, 242
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 507
+Total time for first protocol exchange from Ship 1 to Ship 2, 21617
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 47
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 26422
+Preprocessing AIS cert packets to get complete certificate, 6
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 274
+Compute H(Pa ,Ia )Pa, 243
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 576
+Total time for second protocol exchange from Ship 2 to Ship 1, 27169
+Generation of DH key on Ship 1, 286
+Generation of DH key on Ship 2, 255
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 25367
+Complete time for preprocessing/sending/receiving auth tag , 25581
+Generation of Auth tag using HMAC function, 16
+Preprocessing of SecureAIS auth tag before transmitting, 20
+Sending/Receiving of auth tag packet#0, 26483
+Complete time for preprocessing/sending/receiving auth tag , 26745
+Verify auth tag, 0
+Generation of link session key on Ship 1, 2
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 102038
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 213
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 22606
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 27143
+Preprocessing AIS cert packets to get complete certificate, 13
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 1480
+Compute H(Pa ,Ia )Pa, 425
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 2084
+Total time for first protocol exchange from Ship 1 to Ship 2, 52625
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 78
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 11371
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 40452
+Preprocessing AIS cert packets to get complete certificate, 9
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 906
+Compute H(Pa ,Ia )Pa, 308
+C + H(Pa ,Ia ) Pa, 1
+Total time to Compute Pk, 1344
+Total time for second protocol exchange from Ship 2 to Ship 1, 53449
+Generation of DH key on Ship 1, 315
+Generation of DH key on Ship 2, 376
+Generation of preliminary session key on Ship 1, 1
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 13
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 11343
+Complete time for preprocessing/sending/receiving auth tag , 11609
+Generation of Auth tag using HMAC function, 18
+Preprocessing of SecureAIS auth tag before transmitting, 25
+Sending/Receiving of auth tag packet#0, 27680
+Complete time for preprocessing/sending/receiving auth tag , 27926
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 146714
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 293
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 24827
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 47071
+Preprocessing AIS cert packets to get complete certificate, 9
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 982
+Compute H(Pa ,Ia )Pa, 323
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 1431
+Total time for first protocol exchange from Ship 1 to Ship 2, 74314
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 39
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 11616
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 29194
+Preprocessing AIS cert packets to get complete certificate, 11
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 1139
+Compute H(Pa ,Ia )Pa, 388
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 1687
+Total time for second protocol exchange from Ship 2 to Ship 1, 42778
+Generation of DH key on Ship 1, 509
+Generation of DH key on Ship 2, 394
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 20
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 24182
+Complete time for preprocessing/sending/receiving auth tag , 24467
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 15
+Sending/Receiving of auth tag packet#0, 14317
+Complete time for preprocessing/sending/receiving auth tag , 14518
+Verify auth tag, 0
+Generation of link session key on Ship 1, 1
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 157408
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 257
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 24036
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 87526
+Preprocessing AIS cert packets to get complete certificate, 29
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 8305
+Compute H(Pa ,Ia )Pa, 3905
+C + H(Pa ,Ia ) Pa, 14
+Total time to Compute Pk, 12656
+Total time for first protocol exchange from Ship 1 to Ship 2, 125250
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 174
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 45797
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 57845
+Preprocessing AIS cert packets to get complete certificate, 19
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 6374
+Compute H(Pa ,Ia )Pa, 2186
+C + H(Pa ,Ia ) Pa, 4
+Total time to Compute Pk, 8745
+Total time for second protocol exchange from Ship 2 to Ship 1, 112977
+Generation of DH key on Ship 1, 2257
+Generation of DH key on Ship 2, 2333
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 20
+Preprocessing of SecureAIS auth tag before transmitting, 28
+Sending/Receiving of auth tag packet#0, 16213
+Complete time for preprocessing/sending/receiving auth tag , 16494
+Generation of Auth tag using HMAC function, 16
+Preprocessing of SecureAIS auth tag before transmitting, 32
+Sending/Receiving of auth tag packet#0, 28805
+Complete time for preprocessing/sending/receiving auth tag , 29048
+Verify auth tag, 0
+Generation of link session key on Ship 1, 3
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 288988
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 297
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19492
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 27416
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 40512
+Preprocessing AIS cert packets to get complete certificate, 14
+Extraction of secret material from certificate to gen Public Key later, 1
+Addition of Src MMSI to cert and Hash operation to get e, 9206
+Compute H(Pa ,Ia )Pa, 1245
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 10561
+Total time for first protocol exchange from Ship 1 to Ship 2, 98903
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 62
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 6911
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 39476
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 25861
+Preprocessing AIS cert packets to get complete certificate, 15
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 10912
+Compute H(Pa ,Ia )Pa, 2294
+C + H(Pa ,Ia ) Pa, 5
+Total time to Compute Pk, 13395
+Total time for second protocol exchange from Ship 2 to Ship 1, 85981
+Generation of DH key on Ship 1, 1818
+Generation of DH key on Ship 2, 1525
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 14194
+Complete time for preprocessing/sending/receiving auth tag , 14397
+Generation of Auth tag using HMAC function, 21
+Preprocessing of SecureAIS auth tag before transmitting, 29
+Sending/Receiving of auth tag packet#0, 13419
+Complete time for preprocessing/sending/receiving auth tag , 13687
+Verify auth tag, 0
+Generation of link session key on Ship 1, 4
+Generation of link session key on Ship 2, 3
+Total time taken by protocol for exchange, 216729
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 265
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 15925
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 18813
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 28813
+Preprocessing AIS cert packets to get complete certificate, 14
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 6693
+Compute H(Pa ,Ia )Pa, 1219
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 8012
+Total time for first protocol exchange from Ship 1 to Ship 2, 72414
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 106
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 5872
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 28467
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 23343
+Preprocessing AIS cert packets to get complete certificate, 14
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 7192
+Compute H(Pa ,Ia )Pa, 1309
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 8621
+Total time for second protocol exchange from Ship 2 to Ship 1, 66760
+Generation of DH key on Ship 1, 1276
+Generation of DH key on Ship 2, 1225
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 25
+Sending/Receiving of auth tag packet#0, 9975
+Complete time for preprocessing/sending/receiving auth tag , 10240
+Generation of Auth tag using HMAC function, 22
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 8916
+Complete time for preprocessing/sending/receiving auth tag , 9123
+Verify auth tag, 0
+Generation of link session key on Ship 1, 2
+Generation of link session key on Ship 2, 1
+Total time taken by protocol for exchange, 161450
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 263
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 15892
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 19861
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 31174
+Preprocessing AIS cert packets to get complete certificate, 15
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 6875
+Compute H(Pa ,Ia )Pa, 1209
+C + H(Pa ,Ia ) Pa, 2
+Total time to Compute Pk, 8192
+Total time for first protocol exchange from Ship 1 to Ship 2, 75993
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 48
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 5393
+Sending/Receiving SecureAIS (nonce,certificate) packet# 1, 29172
+Sending/Receiving SecureAIS (nonce,certificate) packet# 2, 19893
+Preprocessing AIS cert packets to get complete certificate, 12
+Extraction of secret material from certificate to gen Public Key later, 0
+Addition of Src MMSI to cert and Hash operation to get e, 7444
+Compute H(Pa ,Ia )Pa, 1674
+C + H(Pa ,Ia ) Pa, 4
+Total time to Compute Pk, 9286
+Total time for second protocol exchange from Ship 2 to Ship 1, 64019
+Generation of DH key on Ship 1, 1277
+Generation of DH key on Ship 2, 1247
+Generation of preliminary session key on Ship 1, 2
+Generation of preliminary session key on Ship 2, 1
+Generation of Auth tag using HMAC function, 24
+Preprocessing of SecureAIS auth tag before transmitting, 12
+Sending/Receiving of auth tag packet#0, 10682
+Complete time for preprocessing/sending/receiving auth tag , 10959
+Generation of Auth tag using HMAC function, 18
+Preprocessing of SecureAIS auth tag before transmitting, 15
+Sending/Receiving of auth tag packet#0, 10586
+Complete time for preprocessing/sending/receiving auth tag , 10787
+Verify auth tag, 0
+Generation of link session key on Ship 1, 2
+Generation of link session key on Ship 2, 2
+Total time taken by protocol for exchange, 164706
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 260
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 38777
+Total time for first protocol exchange from Ship 1 to Ship 2, 39535
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 69
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 30208
+Total time for second protocol exchange from Ship 2 to Ship 1, 30381
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 20
+Sending/Receiving of auth tag packet#0, 29371
+Complete time for preprocessing/sending/receiving auth tag , 29613
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 28
+Sending/Receiving of auth tag packet#0, 28802
+Complete time for preprocessing/sending/receiving auth tag , 29042
+Total time taken by protocol for exchange, 128825
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 266
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 20063
+Total time for first protocol exchange from Ship 1 to Ship 2, 20791
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 78
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 28861
+Total time for second protocol exchange from Ship 2 to Ship 1, 29032
+Generation of Auth tag using HMAC function, 13
+Preprocessing of SecureAIS auth tag before transmitting, 20
+Sending/Receiving of auth tag packet#0, 28725
+Complete time for preprocessing/sending/receiving auth tag , 28967
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 25
+Sending/Receiving of auth tag packet#0, 30162
+Complete time for preprocessing/sending/receiving auth tag , 30389
+Total time taken by protocol for exchange, 109396
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 218
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19201
+Total time for first protocol exchange from Ship 1 to Ship 2, 19857
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 67
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 28775
+Total time for second protocol exchange from Ship 2 to Ship 1, 28933
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 27
+Sending/Receiving of auth tag packet#0, 29463
+Complete time for preprocessing/sending/receiving auth tag , 29718
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 20
+Sending/Receiving of auth tag packet#0, 29654
+Complete time for preprocessing/sending/receiving auth tag , 29874
+Total time taken by protocol for exchange, 108614
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 228
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18912
+Total time for first protocol exchange from Ship 1 to Ship 2, 19597
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 68
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 28437
+Total time for second protocol exchange from Ship 2 to Ship 1, 28598
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 28
+Sending/Receiving of auth tag packet#0, 31168
+Complete time for preprocessing/sending/receiving auth tag , 31441
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 28079
+Complete time for preprocessing/sending/receiving auth tag , 28326
+Total time taken by protocol for exchange, 108178
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 211
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 22397
+Total time for first protocol exchange from Ship 1 to Ship 2, 22991
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 72
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 39620
+Total time for second protocol exchange from Ship 2 to Ship 1, 39798
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 48
+Sending/Receiving of auth tag packet#0, 37360
+Complete time for preprocessing/sending/receiving auth tag , 37652
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 47
+Sending/Receiving of auth tag packet#0, 36143
+Complete time for preprocessing/sending/receiving auth tag , 36446
+Total time taken by protocol for exchange, 137135
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 233
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19971
+Total time for first protocol exchange from Ship 1 to Ship 2, 20584
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 61
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 30187
+Total time for second protocol exchange from Ship 2 to Ship 1, 30342
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 27
+Sending/Receiving of auth tag packet#0, 28572
+Complete time for preprocessing/sending/receiving auth tag , 28856
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 25
+Sending/Receiving of auth tag packet#0, 28558
+Complete time for preprocessing/sending/receiving auth tag , 28832
+Total time taken by protocol for exchange, 108820
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 59
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 259153
+Total time for first protocol exchange from Ship 1 to Ship 2, 259416
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 34
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 415889
+Total time for second protocol exchange from Ship 2 to Ship 1, 415980
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 415841
+Complete time for preprocessing/sending/receiving auth tag , 416019
+Generation of Auth tag using HMAC function, 7
+Preprocessing of SecureAIS auth tag before transmitting, 38
+Sending/Receiving of auth tag packet#0, 415827
+Complete time for preprocessing/sending/receiving auth tag , 416009
+Total time taken by protocol for exchange, 1507551
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 84
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 95
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 67
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 71
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 142891
+Total time for first protocol exchange from Ship 1 to Ship 2, 143138
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 42
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 415768
+Total time for second protocol exchange from Ship 2 to Ship 1, 415884
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 624064
+Complete time for preprocessing/sending/receiving auth tag , 624235
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 13
+Sending/Receiving of auth tag packet#0, 207613
+Complete time for preprocessing/sending/receiving auth tag , 207788
+Total time taken by protocol for exchange, 1391208
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 74
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 79
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 225715
+Total time for first protocol exchange from Ship 1 to Ship 2, 225973
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 51
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 414706
+Total time for second protocol exchange from Ship 2 to Ship 1, 414835
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 20
+Sending/Receiving of auth tag packet#0, 415611
+Complete time for preprocessing/sending/receiving auth tag , 415869
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 75
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 77
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 196373
+Total time for first protocol exchange from Ship 1 to Ship 2, 196674
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 48
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 99
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 214
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 239
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 40735
+Total time for first protocol exchange from Ship 1 to Ship 2, 41437
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 85
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 23994
+Total time for second protocol exchange from Ship 2 to Ship 1, 24181
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 18739
+Complete time for preprocessing/sending/receiving auth tag , 18942
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 18713
+Complete time for preprocessing/sending/receiving auth tag , 18904
+Total time taken by protocol for exchange, 103675
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 65
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 11797
+Total time for first protocol exchange from Ship 1 to Ship 2, 12053
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 36
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 367538
+Total time for second protocol exchange from Ship 2 to Ship 1, 367651
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 416789
+Complete time for preprocessing/sending/receiving auth tag , 417080
+Generation of Auth tag using HMAC function, 26
+Preprocessing of SecureAIS auth tag before transmitting, 42
+Sending/Receiving of auth tag packet#0, 415865
+Complete time for preprocessing/sending/receiving auth tag , 416382
+Total time taken by protocol for exchange, 1213413
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 190
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 15129
+Total time for first protocol exchange from Ship 1 to Ship 2, 15753
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 32
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19002
+Total time for second protocol exchange from Ship 2 to Ship 1, 19115
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 18133
+Complete time for preprocessing/sending/receiving auth tag , 18359
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 27886
+Complete time for preprocessing/sending/receiving auth tag , 28119
+Total time taken by protocol for exchange, 81517
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 83
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 12549
+Total time for first protocol exchange from Ship 1 to Ship 2, 12905
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 37
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18821
+Total time for second protocol exchange from Ship 2 to Ship 1, 18929
+Generation of Auth tag using HMAC function, 7
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 19630
+Complete time for preprocessing/sending/receiving auth tag , 19828
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 18911
+Complete time for preprocessing/sending/receiving auth tag , 19110
+Total time taken by protocol for exchange, 70942
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 180
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18754
+Total time for first protocol exchange from Ship 1 to Ship 2, 19336
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 39
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19754
+Total time for second protocol exchange from Ship 2 to Ship 1, 19874
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 19383
+Complete time for preprocessing/sending/receiving auth tag , 19599
+Generation of Auth tag using HMAC function, 7
+Preprocessing of SecureAIS auth tag before transmitting, 13
+Sending/Receiving of auth tag packet#0, 17888
+Complete time for preprocessing/sending/receiving auth tag , 18070
+Total time taken by protocol for exchange, 77053
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 194
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 17167
+Total time for first protocol exchange from Ship 1 to Ship 2, 17743
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 35
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19160
+Total time for second protocol exchange from Ship 2 to Ship 1, 19323
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 18200
+Complete time for preprocessing/sending/receiving auth tag , 18399
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 18213
+Complete time for preprocessing/sending/receiving auth tag , 18516
+Total time taken by protocol for exchange, 74137
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 206
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 16088
+Total time for first protocol exchange from Ship 1 to Ship 2, 16654
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 35
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18978
+Total time for second protocol exchange from Ship 2 to Ship 1, 19075
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 18694
+Complete time for preprocessing/sending/receiving auth tag , 18905
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 18142
+Complete time for preprocessing/sending/receiving auth tag , 18355
+Total time taken by protocol for exchange, 73144
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 183
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 15039
+Total time for first protocol exchange from Ship 1 to Ship 2, 15593
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 37
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18493
+Total time for second protocol exchange from Ship 2 to Ship 1, 18607
+Generation of Auth tag using HMAC function, 13
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 18409
+Complete time for preprocessing/sending/receiving auth tag , 18606
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 41
+Sending/Receiving of auth tag packet#0, 18538
+Complete time for preprocessing/sending/receiving auth tag , 18744
+Total time taken by protocol for exchange, 71725
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 176
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 15413
+Total time for first protocol exchange from Ship 1 to Ship 2, 15940
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 24
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18443
+Total time for second protocol exchange from Ship 2 to Ship 1, 18531
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 18312
+Complete time for preprocessing/sending/receiving auth tag , 18501
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 12
+Sending/Receiving of auth tag packet#0, 19277
+Complete time for preprocessing/sending/receiving auth tag , 19462
+Total time taken by protocol for exchange, 72583
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 164
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 31817
+Total time for first protocol exchange from Ship 1 to Ship 2, 32389
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 105
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 26154
+Total time for second protocol exchange from Ship 2 to Ship 1, 26371
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 21
+Sending/Receiving of auth tag packet#0, 19042
+Complete time for preprocessing/sending/receiving auth tag , 19260
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 403575
+Complete time for preprocessing/sending/receiving auth tag , 403872
+Total time taken by protocol for exchange, 482169
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 177
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 16610
+Total time for first protocol exchange from Ship 1 to Ship 2, 17149
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 42
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 19725
+Total time for second protocol exchange from Ship 2 to Ship 1, 19830
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 18618
+Complete time for preprocessing/sending/receiving auth tag , 18840
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 19263
+Complete time for preprocessing/sending/receiving auth tag , 19448
+Total time taken by protocol for exchange, 75452
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 196
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 17232
+Total time for first protocol exchange from Ship 1 to Ship 2, 17788
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 34
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 21536
+Total time for second protocol exchange from Ship 2 to Ship 1, 21658
+Generation of Auth tag using HMAC function, 7
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 24386
+Complete time for preprocessing/sending/receiving auth tag , 24604
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 17585
+Complete time for preprocessing/sending/receiving auth tag , 17810
+Total time taken by protocol for exchange, 82019
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 192
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 16844
+Total time for first protocol exchange from Ship 1 to Ship 2, 17458
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 29
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18787
+Total time for second protocol exchange from Ship 2 to Ship 1, 18873
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 19662
+Complete time for preprocessing/sending/receiving auth tag , 19851
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 13
+Sending/Receiving of auth tag packet#0, 18236
+Complete time for preprocessing/sending/receiving auth tag , 18419
+Total time taken by protocol for exchange, 74781
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 178
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18473
+Total time for first protocol exchange from Ship 1 to Ship 2, 19020
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 37
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18495
+Total time for second protocol exchange from Ship 2 to Ship 1, 18602
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 18386
+Complete time for preprocessing/sending/receiving auth tag , 18573
+Generation of Auth tag using HMAC function, 7
+Preprocessing of SecureAIS auth tag before transmitting, 13
+Sending/Receiving of auth tag packet#0, 19384
+Complete time for preprocessing/sending/receiving auth tag , 19574
+Total time taken by protocol for exchange, 75926
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 178
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 16250
+Total time for first protocol exchange from Ship 1 to Ship 2, 16805
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 29
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 18769
+Total time for second protocol exchange from Ship 2 to Ship 1, 18865
+Generation of Auth tag using HMAC function, 11
+Preprocessing of SecureAIS auth tag before transmitting, 15
+Sending/Receiving of auth tag packet#0, 18984
+Complete time for preprocessing/sending/receiving auth tag , 19173
+Generation of Auth tag using HMAC function, 8
+Preprocessing of SecureAIS auth tag before transmitting, 17
+Sending/Receiving of auth tag packet#0, 20619
+Complete time for preprocessing/sending/receiving auth tag , 20807
+Total time taken by protocol for exchange, 75800
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 193
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 16199
+Total time for first protocol exchange from Ship 1 to Ship 2, 16772
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 34
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 21151
+Total time for second protocol exchange from Ship 2 to Ship 1, 21250
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 14
+Sending/Receiving of auth tag packet#0, 18419
+Complete time for preprocessing/sending/receiving auth tag , 18606
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 18829
+Complete time for preprocessing/sending/receiving auth tag , 19050
+Total time taken by protocol for exchange, 75830
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 170
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 35230
+Total time for first protocol exchange from Ship 1 to Ship 2, 35773
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 43
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 24669
+Total time for second protocol exchange from Ship 2 to Ship 1, 24785
+Generation of Auth tag using HMAC function, 6
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 19974
+Complete time for preprocessing/sending/receiving auth tag , 20188
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 18
+Sending/Receiving of auth tag packet#0, 18507
+Complete time for preprocessing/sending/receiving auth tag , 18703
+Total time taken by protocol for exchange, 99649
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 94
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 37936
+Total time for first protocol exchange from Ship 1 to Ship 2, 38444
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 35
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 25744
+Total time for second protocol exchange from Ship 2 to Ship 1, 25859
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 30
+Sending/Receiving of auth tag packet#0, 160180
+Complete time for preprocessing/sending/receiving auth tag , 160536
+Generation of Auth tag using HMAC function, 30
+Preprocessing of SecureAIS auth tag before transmitting, 49
+Sending/Receiving of auth tag packet#0, 415791
+Complete time for preprocessing/sending/receiving auth tag , 416289
+Total time taken by protocol for exchange, 641432
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 107
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 22172
+Total time for first protocol exchange from Ship 1 to Ship 2, 22713
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 26
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 32415
+Total time for second protocol exchange from Ship 2 to Ship 1, 32543
+Generation of Auth tag using HMAC function, 17
+Preprocessing of SecureAIS auth tag before transmitting, 35
+Sending/Receiving of auth tag packet#0, 31946
+Complete time for preprocessing/sending/receiving auth tag , 32268
+Generation of Auth tag using HMAC function, 16
+Preprocessing of SecureAIS auth tag before transmitting, 27
+Sending/Receiving of auth tag packet#0, 34313
+Complete time for preprocessing/sending/receiving auth tag , 34587
+Total time taken by protocol for exchange, 122366
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 94
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 20547
+Total time for first protocol exchange from Ship 1 to Ship 2, 21061
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 20
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 26942
+Total time for second protocol exchange from Ship 2 to Ship 1, 27055
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 31
+Sending/Receiving of auth tag packet#0, 27614
+Complete time for preprocessing/sending/receiving auth tag , 27976
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 25
+Sending/Receiving of auth tag packet#0, 26170
+Complete time for preprocessing/sending/receiving auth tag , 26420
+Total time taken by protocol for exchange, 102824
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 111
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 22399
+Total time for first protocol exchange from Ship 1 to Ship 2, 22921
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 34
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 28203
+Total time for second protocol exchange from Ship 2 to Ship 1, 28322
+Generation of Auth tag using HMAC function, 13
+Preprocessing of SecureAIS auth tag before transmitting, 32
+Sending/Receiving of auth tag packet#0, 26684
+Complete time for preprocessing/sending/receiving auth tag , 26946
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 27
+Sending/Receiving of auth tag packet#0, 28485
+Complete time for preprocessing/sending/receiving auth tag , 28716
+Total time taken by protocol for exchange, 107105
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 101
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 23495
+Total time for first protocol exchange from Ship 1 to Ship 2, 24035
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 32
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 26290
+Total time for second protocol exchange from Ship 2 to Ship 1, 26399
+Generation of Auth tag using HMAC function, 9
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 27787
+Complete time for preprocessing/sending/receiving auth tag , 28039
+Generation of Auth tag using HMAC function, 10
+Preprocessing of SecureAIS auth tag before transmitting, 16
+Sending/Receiving of auth tag packet#0, 28529
+Complete time for preprocessing/sending/receiving auth tag , 28759
+Total time taken by protocol for exchange, 107402
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 101
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 9387
+Total time for first protocol exchange from Ship 1 to Ship 2, 9902
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 27
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 40708
+Total time for second protocol exchange from Ship 2 to Ship 1, 40818
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 29
+Sending/Receiving of auth tag packet#0, 32200
+Complete time for preprocessing/sending/receiving auth tag , 32510
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 26
+Sending/Receiving of auth tag packet#0, 30015
+Complete time for preprocessing/sending/receiving auth tag , 30331
+Total time taken by protocol for exchange, 113784
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 94
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 10105
+Total time for first protocol exchange from Ship 1 to Ship 2, 10612
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 31
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 40403
+Total time for second protocol exchange from Ship 2 to Ship 1, 40517
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 32
+Sending/Receiving of auth tag packet#0, 30299
+Complete time for preprocessing/sending/receiving auth tag , 30555
+Generation of Auth tag using HMAC function, 12
+Preprocessing of SecureAIS auth tag before transmitting, 23
+Sending/Receiving of auth tag packet#0, 27074
+Complete time for preprocessing/sending/receiving auth tag , 27336
+Total time taken by protocol for exchange, 109248
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 105
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 10796
+Total time for first protocol exchange from Ship 1 to Ship 2, 11383
+Preprocessing of SecureAIS exchange message(nonce,certificate) before transmitting, 29
+Sending/Receiving SecureAIS (nonce,certificate) packet# 0, 41260
+Total time for second protocol exchange from Ship 2 to Ship 1, 41373
+Generation of Auth tag using HMAC function, 14
+Preprocessing of SecureAIS auth tag before transmitting, 38
+Sending/Receiving of auth tag packet#0, 27922
+Complete time for preprocessing/sending/receiving auth tag , 28235
+Generation of Auth tag using HMAC function, 15
+Preprocessing of SecureAIS auth tag before transmitting, 19
+Sending/Receiving of auth tag packet#0, 26772
+Complete time for preprocessing/sending/receiving auth tag , 27022
+Total time taken by protocol for exchange, 108228
