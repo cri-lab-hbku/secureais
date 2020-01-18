@@ -64,6 +64,11 @@ Other flags include: <br />
     -DGEN_KEYS = true or false to set whether to generate keys or not <br />
 Using gcc compile command would be: <br />
 
+# Formal verification with ProVerif
+The security properties of SecureAIS have been verified formally and experimentally by using the open-source tool ProVerif, demonstrating enhanced security protection with respect to state-of-the-art approaches.
+
+In order to test the security properties, download the file <a href="secureais.pv">secureais.pv</a> and run: `proverif secureais.pv | grep "RESULT"`.
+
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -84,3 +89,6 @@ Credits go to the original authors of MIRACL core crypto library, gr_aistx and a
 https://github.com/miracl/core  <br />
 https://github.com/trendmicro/ais   <br />
 https://github.com/juan0fran/ais_rx <br />
+
+## License
+SecureAIS is released under the BSD 3-Clause <a href="LICENSE">license</a>.
