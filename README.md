@@ -1,9 +1,17 @@
 # SecureAIS - Securing Pairwise Vessels Communications (Proof of Concept)
-A Proof of Concept using gnuradio and Ettus X310 SDRs on how to set up key exchange between two Automatic Identification System (AIS) transceivers for secure communication. The protocol adopts Elliptic Curve Qu-Vanstone implicit certificates by guaranteeing the support of different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
+SecureAIS is a key establishment protocol specifically designed to meet the features and bandwidth constraints of the Automatic Identification System (AIS) communication technology. It has been designed as a standard-compliant AIS application, that can be installed by Class-A and Class-B AIS transceivers to establish secure pairwise session keys with neighboring entities, being them either vessels or port authorities. SecureAIS integrates and concatenates well-known cryptographic blocks, such as the Elliptic Curve Qu-Vanstone implicit certification scheme and the Elliptic Curve Diffie Hellman key agreement algorithm, and its security has been formally verified using the automated tool ProVerif.
 
 <p align="center">
-     <img alt="ais_tranceiver_flowgraph" src="./images/ais_tranceiver_flowgraph.png" width="500">
+     <img alt="ais_tranceiver_flowgraph" src="./images/scenario.png" width="500">
 </p>
+
+A Proof of Concept using GNU-Radio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. It supports different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
+
+<p align="center">
+     <img alt="ais_tranceiver_flowgraph" src="./images/key-agr.png" width="500">
+</p>
+
+<i>For further details, please refer to the paper.</i>
 
 # Why create this?
 Nobody has done it in a way that is standard compliant or requires just a software update to make a security service work on AIS. In theory two friendly ships can implement all of this before leaving harbour and then communicate in secrecy.
@@ -15,6 +23,10 @@ This project has two parts, a C++ program and a flowgraph in GNU-Radio. To set t
 3 - Open <i>ais_transceiever.grc</i> flowgraph in GNU-Radio.  <br />
 4 - Make sure ports <b>51999</b> and <b>5200</b> are not adopted by any network protocol. <br />
 5 - Execute main or compile code from the source.<br />
+
+<p align="center">
+     <img alt="ais_tranceiver_flowgraph" src="./images/ais_tranceiver_flowgraph.png" width="500">
+</p>
 
 # How to compile code
 To compile from source or use a different security level:
