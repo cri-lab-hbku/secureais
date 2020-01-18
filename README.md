@@ -1,5 +1,5 @@
 # SecureAIS - Proof of Concept
-A Proof of Concept using gnuradio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. Uses ECC which allows for different levels of security levels, currently supported security levels are none, 80, 128, 192 and 256 bits.
+A Proof of Concept using gnuradio and Ettus X310 SDRs on how to set up key exchange between two Automatic Identification System (AIS) transceivers for secure communication. Uses ECC which allows for different levels of security levels, currently supported security levels are none, <i>80, 128, 192,</i> and <i>256</i> bits.
 
 <p align="center">
      <img alt="ais_tranceiver_flowgraph" src="./images/ais_tranceiver_flowgraph.png" width="500">
@@ -10,11 +10,11 @@ Nobody has done it in a way that is standard compliant or requires just a softwa
 
 # How to use
 This project has two parts, a C++ program and a flowgraph in gnuradio. To set them up: </br>
-1- Install gnuradio software <br />
-2- Install gr-aistx_with_input block to gnuradio, instructions inside block folder on how to compile and install, remember if you are using PyBOMBS to initialize your environment first. <br />
-3- Open ais_transceiever.grc flowgraph in gnuradio.  <br />
-4- Make sure ports 51999 and 5200 are free. <br />
-5- Execute main or compile code from source     <br />
+1 - Install gnuradio software <br />
+2 - Install gr-aistx_with_input block to gnuradio, instructions inside block folder on how to compile and install, remember if you are using PyBOMBS to initialize your environment first. <br />
+3 - Open ais_transceiever.grc flowgraph in gnuradio.  <br />
+4 - Make sure ports 51999 and 5200 are free. <br />
+5 - Execute main or compile code from source     <br />
 
 # How to compile code
 To compile from source or use a different security level
