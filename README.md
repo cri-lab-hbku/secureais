@@ -1,4 +1,4 @@
-# SecureAIS-PoC
+# SecureAIS - Proof of Concept
 A Proof of Concept using gnuradio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. Uses ECC which allows for different levels of security levels, currently supported security levels are none, 80, 128, 192 and 256 bits.
 
 <p align="center">
@@ -29,6 +29,16 @@ Using gcc compile command would be: <br />
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+# Developers
+-Ahmed Aziz
+-Pietro Tedeschi
+-Savio Sciancalepore
+-Roberto Di Pietro
+Division of Information and Computing Technology (ICT)
+College of Science and Engineering (CSE)
+Hamad Bin Khalifa University (HBKU), Doha, Qatar
+{aaziz, ptedeschi}@mail.hbku.edu.qa, {ssciancalepore, rdipietro}@hbku.edu.qa
 
 # Credits
 Credits go to the original authors of MIRACL core crypto library, gr_aistx and ais_receiver whose original efforts made this possible
