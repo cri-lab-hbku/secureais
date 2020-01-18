@@ -1,4 +1,4 @@
-# SecureAIS - Securing Pairwise Vessels Communications -- Proof of Concept
+# SecureAIS - Securing Pairwise Vessels Communications (Proof of Concept)
 A Proof of Concept using gnuradio and Ettus X310 SDRs on how to set up key exchange between two Automatic Identification System (AIS) transceivers for secure communication. The protocol adopts Elliptic Curve Qu-Vanstone implicit certificates by guaranteeing the support of different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
 
 <p align="center">
