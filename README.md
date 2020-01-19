@@ -69,7 +69,6 @@ The security properties of SecureAIS have been verified formally and experimenta
 
 In order to test the security properties, download the file <a href="sais.pv">secureais.pv</a> and run: `proverif sais.pv | grep "RESULT"`.
 
-
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -78,10 +77,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Pietro Tedeschi        (<ptedeschi@mail.hbku.edu.qa>)<br />
 - Savio Sciancalepore    (<ssciancalepore@hbku.edu.qa>)<br />
 - Roberto Di Pietro      (<rdipietro@hbku.edu.qa>)<br />
-Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE) - Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
+Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE)<br />Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
 
 # Credits
-Credits go to the original authors of MIRACL core crypto library, gr_aistx and ais_receiver whose original efforts made this possible
+Credits go to the original authors of MIRACL Core Crypto library, gr_aistx and ais_receiver whose original efforts made this possible:
 <br />
 https://github.com/miracl/core  <br />
 https://github.com/trendmicro/ais   <br />
