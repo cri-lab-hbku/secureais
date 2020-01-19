@@ -5,7 +5,7 @@ SecureAIS is a key establishment protocol specifically designed to meet the feat
      <img alt="ais_tranceiver_flowgraph" src="./images/scenario.png" width="500">
 </p>
 
-A Proof of Concept using GNU-Radio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. It supports different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
+A Proof of Concept using GNURadio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. It supports different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
 
 <p align="center">
      <img alt="ais_tranceiver_flowgraph" src="./images/key-agr.png" width="500">
@@ -17,10 +17,10 @@ A Proof of Concept using GNU-Radio and Ettus X310 SDRs on how to set up key exch
 Nobody has done it in a way that is standard compliant or requires just a software update to make a security service work on AIS. In theory two friendly ships can implement all of this before leaving harbour and then communicate in secrecy.
 
 # How to use
-This project has two parts, a C++ program and a flowgraph in GNU-Radio. To set them up: </br>
+This project has two parts, a C++ program and a flowgraph in GNURadio. To set them up: </br>
 1 - Install <i>gnuradio</i> software <br />
 2 - Install <i>gr-aistx_with_input</i> block to gnuradio (instructions inside the block folder on how to compile and install it). If you are using PyBOMBS, please initialize your environment first. <br />
-3 - Open <i>ais_transceiever.grc</i> flowgraph in GNU-Radio.  <br />
+3 - Open <i>ais_transceiever.grc</i> flowgraph in GNURadio.  <br />
 4 - Make sure ports <b>51999</b> and <b>5200</b> are not adopted by any network protocol. <br />
 5 - Execute main or compile code from the source.<br />
 
