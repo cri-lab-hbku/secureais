@@ -74,14 +74,13 @@ In order to test the security properties, download the file <a href="sais.pv">se
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # Developers
--Ahmed Aziz<br />
--Pietro Tedeschi<br />
--Savio Sciancalepore<br />
--Roberto Di Pietro<br />
+- Ahmed Aziz <aaziz@mail.hbku.edu.qa><br />
+- Pietro Tedeschi <ptedeschi@mail.hbku.edu.qa><br />
+- Savio Sciancalepore <ssciancalepore@hbku.edu.qa><br />
+- Roberto Di Pietro <rdipietro@hbku.edu.qa><br />
 Division of Information and Computing Technology (ICT)<br />
 College of Science and Engineering (CSE)<br />
 Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
-{aaziz, ptedeschi}@mail.hbku.edu.qa, {ssciancalepore, rdipietro}@hbku.edu.qa
 
 # Credits
 Credits go to the original authors of MIRACL core crypto library, gr_aistx and ais_receiver whose original efforts made this possible
