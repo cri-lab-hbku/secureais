@@ -18,11 +18,11 @@ Nobody has done it in a way that is standard compliant or requires just a softwa
 
 # How to use
 This project has two parts, a C++ program and a flowgraph in GNURadio. To set them up: </br>
-1 - Install <i>gnuradio</i> software <br />
-2 - Install <i>gr-aistx_with_input</i> block to gnuradio (instructions inside the block folder on how to compile and install it). If you are using PyBOMBS, please initialize your environment first. <br />
-3 - Open <i>ais_transceiever.grc</i> flowgraph in GNURadio.  <br />
-4 - Make sure ports <b>51999</b> and <b>5200</b> are not adopted by any network protocol. <br />
-5 - Execute main or compile code from the source.<br />
+1) Install <i>gnuradio</i> software <br />
+2) Install <i>gr-aistx_with_input</i> block to gnuradio (instructions inside the block folder on how to compile and install it). If you are using PyBOMBS, please initialize your environment first. <br />
+3) Open <i>ais_transceiever.grc</i> flowgraph in GNURadio.  <br />
+4) Make sure ports <b>51999</b> and <b>5200</b> are not adopted by any network protocol. <br />
+5) Execute main or compile code from the source.<br />
 
 <p align="center">
      <img alt="ais_tranceiver_flowgraph" src="./images/ais_tranceiver_flowgraph.png" width="500">
@@ -74,13 +74,11 @@ In order to test the security properties, download the file <a href="sais.pv">se
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # Developers
-- Ahmed Aziz <aaziz@mail.hbku.edu.qa><br />
-- Pietro Tedeschi <ptedeschi@mail.hbku.edu.qa><br />
-- Savio Sciancalepore <ssciancalepore@hbku.edu.qa><br />
-- Roberto Di Pietro <rdipietro@hbku.edu.qa><br />
-Division of Information and Computing Technology (ICT)<br />
-College of Science and Engineering (CSE)<br />
-Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
+- Ahmed Aziz             <aaziz@mail.hbku.edu.qa><br />
+- Pietro Tedeschi        <ptedeschi@mail.hbku.edu.qa><br />
+- Savio Sciancalepore    <ssciancalepore@hbku.edu.qa><br />
+- Roberto Di Pietro      <rdipietro@hbku.edu.qa><br />
+Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE) - Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
 
 # Credits
 Credits go to the original authors of MIRACL core crypto library, gr_aistx and ais_receiver whose original efforts made this possible
