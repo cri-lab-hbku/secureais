@@ -74,10 +74,10 @@ In order to test the security properties, download the file <a href="sais.pv">se
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # Developers
-- Ahmed Aziz             <aaziz@mail.hbku.edu.qa><br />
-- Pietro Tedeschi        <ptedeschi@mail.hbku.edu.qa><br />
-- Savio Sciancalepore    <ssciancalepore@hbku.edu.qa><br />
-- Roberto Di Pietro      <rdipietro@hbku.edu.qa><br />
+- Ahmed Aziz             (<aaziz@mail.hbku.edu.qa>)<br />
+- Pietro Tedeschi        (<ptedeschi@mail.hbku.edu.qa>)<br />
+- Savio Sciancalepore    (<ssciancalepore@hbku.edu.qa>)<br />
+- Roberto Di Pietro      (<rdipietro@hbku.edu.qa>)<br />
 Division of Information and Computing Technology (ICT), College of Science and Engineering (CSE) - Hamad Bin Khalifa University (HBKU), Doha, Qatar<br />
 
 # Credits
