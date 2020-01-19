@@ -62,7 +62,6 @@ In order to set a different security level, you can add flag <i>-DSECURITY_LEVEL
 Other flags include: <br />
     -DPORT_SEND or -DPORT_RECEIVE to set another port for send/receive sockets <br />
     -DGEN_KEYS = true or false to set whether to generate keys or not <br />
-Using gcc compile command would be: <br />
 
 # Formal verification with ProVerif
 The security properties of SecureAIS have been verified formally and experimentally by using the open-source tool ProVerif, demonstrating enhanced security protection with respect to state-of-the-art approaches.
