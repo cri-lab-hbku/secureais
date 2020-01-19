@@ -5,7 +5,7 @@ SecureAIS is a key establishment protocol specifically designed to meet the feat
      <img alt="ais_tranceiver_flowgraph" src="./images/scenario.png" width="500">
 </p>
 
-A Proof of Concept using GNURadio and Ettus X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. It supports different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
+A Proof of Concept using GNURadio and Ettus Research X310 SDRs on how to set up key exchange between two AIS transceivers for secure communication. It supports different security levels: none, <i>80, 128, 192,</i> and <i>256</i> bits.
 
 <p align="center">
      <img alt="ais_tranceiver_flowgraph" src="./images/key-agr.png" width="500">
